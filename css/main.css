@@ -172,11 +172,23 @@ select {
   width: 80%;
   margin: 0 auto;
   max-width: 600px;
+  border: 2px solid green;
+}
+@media (min-width: 1200px) {
+  .header__banner {
+    max-width: 1200px;
+  }
 }
 
 .header__banner__img_wrap {
   position: relative;
   margin-bottom: 15%;
+  border: 2px solid red;
+}
+@media (min-width: 1200px) {
+  .header__banner__img_wrap {
+    width: 45%;
+  }
 }
 
 .image__background {
@@ -187,6 +199,14 @@ select {
   top: 0;
   left: 0;
   background-image: linear-gradient(to right, #ffb067, #f5a4c1);
+}
+
+.image__text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 128, 0, 0.8);
 }
 
 .header__banner__items {

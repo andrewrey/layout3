@@ -92,10 +92,18 @@
   width: 80%;
   margin: 0 auto;
   max-width: 600px;
+  border: 2px solid green;
+  @include abstracts.mq(1200px) {
+    max-width: 1200px;
+  }
 }
 .header__banner__img_wrap {
   position: relative;
   margin-bottom: 15%;
+  border: 2px solid red;
+  @include abstracts.mq(1200px) {
+    width: 45%;
+  }
 }
 
 .image__background {
@@ -110,6 +118,13 @@
     abstracts.$orange,
     abstracts.$hPink
   );
+}
+.image__text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(green, 0.8);
 }
 
 .header__banner__items {
