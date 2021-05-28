@@ -91,6 +91,25 @@
 .header__banner {
   width: 80%;
   margin: 0 auto;
+  max-width: 600px;
+}
+.header__banner__img_wrap {
+  position: relative;
+  margin-bottom: 15%;
+}
+
+.image__background {
+  position: absolute;
+  z-index: -19;
+  height: 110%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(
+    to right,
+    abstracts.$orange,
+    abstracts.$hPink
+  );
 }
 
 .item {
