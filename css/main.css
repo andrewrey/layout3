@@ -103,6 +103,15 @@ select {
 .header__burger:hover {
   cursor: pointer;
 }
+.header__burger:hover .orange {
+  animation: flash 0.8s infinite;
+}
+.header__burger:hover .blue {
+  animation: flash 0.8s 0.25s infinite;
+}
+.header__burger:hover .pink {
+  animation: flash 0.8s 0.5s infinite;
+}
 .header__burger div {
   width: 30px;
   background-color: black;
@@ -119,6 +128,18 @@ select {
 }
 .header__burger .pink {
   background-color: #f8ccdc;
+}
+
+@keyframes flash {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
