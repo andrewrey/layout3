@@ -141,7 +141,7 @@ select {
   height: 4px;
 }
 .header__burger div + div {
-  margin-top: 8px;
+  margin-top: 6px;
 }
 
 .orange {
@@ -187,6 +187,11 @@ select {
   top: 0;
   left: 0;
   background-image: linear-gradient(to right, #ffb067, #f5a4c1);
+}
+
+.header__banner__items {
+  display: flex;
+  flex-direction: column;
 }
 
 .item {

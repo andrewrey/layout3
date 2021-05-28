@@ -60,7 +60,7 @@
     height: 4px;
   }
   div + div {
-    margin-top: 8px;
+    margin-top: 6px;
   }
 }
 
@@ -110,6 +110,11 @@
     abstracts.$orange,
     abstracts.$hPink
   );
+}
+
+.header__banner__items {
+  display: flex;
+  flex-direction: column;
 }
 
 .item {
