@@ -72,6 +72,18 @@ select {
     scroll-behavior: auto !important;
   }
 }
+.header__nav__wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header__nav__wrap .header__logo {
+  width: 200px;
+}
+
+.header__nav {
+  display: none;
+}
 .header__nav ul {
   display: flex;
   list-style-type: none;
@@ -82,6 +94,31 @@ select {
 .header__nav ul a {
   text-decoration: none;
   color: black;
+}
+
+.header__burger {
+  margin-top: -35px;
+  margin-bottom: 4rem;
+}
+.header__burger:hover {
+  cursor: pointer;
+}
+.header__burger div {
+  width: 30px;
+  background-color: black;
+  height: 2px;
+}
+.header__burger div + div {
+  margin-top: 8px;
+}
+.header__burger .orange {
+  background-color: #ffb067;
+}
+.header__burger .blue {
+  background-color: #a2dce7;
+}
+.header__burger .pink {
+  background-color: #f8ccdc;
 }
 
 /*# sourceMappingURL=main.css.map */

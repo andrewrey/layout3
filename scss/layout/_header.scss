@@ -1,4 +1,16 @@
+@use "../abstracts";
+
+.header__nav__wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .header__logo {
+    width: 200px;
+  }
+}
+
 .header__nav {
+  display: none;
   ul {
     display: flex;
     list-style-type: none;
@@ -9,5 +21,30 @@
       text-decoration: none;
       color: black;
     }
+  }
+}
+
+.header__burger {
+  margin-top: -35px;
+  margin-bottom: 4rem;
+  &:hover {
+    cursor: pointer;
+  }
+  div {
+    width: 30px;
+    background-color: black;
+    height: 2px;
+  }
+  div + div {
+    margin-top: 8px;
+  }
+  .orange {
+    background-color: abstracts.$orange;
+  }
+  .blue {
+    background-color: abstracts.$bBlue;
+  }
+  .pink {
+    background-color: abstracts.$hPink;
   }
 }
