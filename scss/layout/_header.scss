@@ -1,0 +1,13 @@
+.header__nav {
+  ul {
+    display: flex;
+    list-style-type: none;
+    li + li {
+      margin-left: 2rem;
+    }
+    a {
+      text-decoration: none;
+      color: black;
+    }
+  }
+}

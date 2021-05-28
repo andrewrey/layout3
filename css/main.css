@@ -72,5 +72,16 @@ select {
     scroll-behavior: auto !important;
   }
 }
+.header__nav ul {
+  display: flex;
+  list-style-type: none;
+}
+.header__nav ul li + li {
+  margin-left: 2rem;
+}
+.header__nav ul a {
+  text-decoration: none;
+  color: black;
+}
 
 /*# sourceMappingURL=main.css.map */
