@@ -206,7 +206,7 @@ header {
   width: 100%;
   top: 0;
   left: 0;
-  background-image: linear-gradient(to right, #ffb067, #f5a4c1);
+  background-image: radial-gradient(at top right, #ffb067, #f5a4c1);
 }
 @media (min-width: 1200px) {
   .image__background {

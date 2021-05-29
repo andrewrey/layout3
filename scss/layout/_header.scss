@@ -124,8 +124,8 @@ header {
   }
   top: 0;
   left: 0;
-  background-image: linear-gradient(
-    to right,
+  background-image: radial-gradient(
+    at top right,
     abstracts.$orange,
     abstracts.$hPink
   );
