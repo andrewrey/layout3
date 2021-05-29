@@ -172,7 +172,6 @@ select {
   width: 80%;
   margin: 0 auto;
   max-width: 600px;
-  border: 2px solid green;
 }
 @media (min-width: 1200px) {
   .header__banner {
@@ -183,7 +182,6 @@ select {
 .header__banner__img_wrap {
   position: relative;
   margin-bottom: 15%;
-  border: 2px solid red;
 }
 @media (min-width: 1200px) {
   .header__banner__img_wrap {
