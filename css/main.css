@@ -187,7 +187,7 @@ select {
 }
 @media (min-width: 1200px) {
   .header__banner__img_wrap {
-    width: 45%;
+    width: 48%;
   }
 }
 
@@ -200,13 +200,32 @@ select {
   left: 0;
   background-image: linear-gradient(to right, #ffb067, #f5a4c1);
 }
+@media (min-width: 1200px) {
+  .image__background {
+    height: 70%;
+    top: 40%;
+    left: 40px;
+  }
+}
 
 .image__text {
+  display: none;
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 10%;
+  left: 110%;
   width: 100%;
-  background: rgba(0, 128, 0, 0.8);
+}
+@media (min-width: 1200px) {
+  .image__text {
+    display: block;
+  }
+}
+.image__text p {
+  font-size: 4.5rem;
+  color: #68c1d3;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 1.2;
 }
 
 .header__banner__items {
