@@ -227,8 +227,16 @@ select {
 }
 
 .header__banner__items {
+  border: 1px solid red;
   display: flex;
   flex-direction: column;
+}
+@media (min-width: 800px) {
+  .header__banner__items {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
 }
 
 .item {
@@ -238,6 +246,16 @@ select {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+@media (min-width: 800px) {
+  .item {
+    flex: 0 1 50%;
+  }
+}
+@media (min-width: 1000px) {
+  .item {
+    flex: 1 1 auto;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
