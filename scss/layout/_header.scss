@@ -1,5 +1,9 @@
 @use "../abstracts";
 
+header {
+  padding-bottom: 200px;
+}
+
 .header__nav__wrap {
   display: flex;
   flex-direction: column;
@@ -92,6 +96,7 @@
   width: 80%;
   margin: 0 auto;
   max-width: 600px;
+  position: relative;
   @include abstracts.mq(1200px) {
     max-width: 1200px;
   }
@@ -101,6 +106,9 @@
   margin-bottom: 15%;
   @include abstracts.mq(1200px) {
     width: 48%;
+  }
+  @include abstracts.mq(800px) {
+    margin-bottom: 0;
   }
 }
 
@@ -141,13 +149,18 @@
 }
 
 .header__banner__items {
-  border: 1px solid red;
   display: flex;
   flex-direction: column;
   @include abstracts.mq(800px) {
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
+  }
+  @include abstracts.mq(1200px) {
+    position: absolute;
+    bottom: -5%;
+    left: 30%;
+    width: 80%;
   }
 }
 
@@ -159,7 +172,7 @@
   justify-content: center;
   align-items: center;
   @include abstracts.mq(800px) {
-    flex: 0 1 50%;
+    flex: 1 1 50%;
   }
   @include abstracts.mq(1000px) {
     flex: 1 1 auto;
