@@ -1,0 +1,26 @@
+@use '../abstracts';
+
+.review {
+  background-color: abstracts.$bBlue;
+  color: white;
+  padding: 8rem 0;
+
+  .review__wrap {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+  }
+
+  .flex__wrap {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .review__decoration {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    height: 3px;
+    width: 100px;
+    background-color: white;
+  }
+}

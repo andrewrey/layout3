@@ -275,4 +275,26 @@ header {
   }
 }
 
+.review {
+  background-color: #68c1d3;
+  color: white;
+  padding: 8rem 0;
+}
+.review .review__wrap {
+  width: 90%;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+.review .flex__wrap {
+  display: flex;
+  flex-direction: column;
+}
+.review .review__decoration {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  height: 3px;
+  width: 100px;
+  background-color: white;
+}
+
 /*# sourceMappingURL=main.css.map */
