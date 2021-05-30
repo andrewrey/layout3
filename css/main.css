@@ -329,4 +329,13 @@ header {
   align-items: center;
 }
 
+.about__grid_wrap {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.about__info_card {
+  text-align: center;
+}
+
 /*# sourceMappingURL=main.css.map */
