@@ -58,7 +58,38 @@
   gap: 3rem 0;
   width: 80%;
   margin: 0 auto;
+  @include abstracts.mq(800px) {
+    gap: 2rem 2rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "one two"
+      "img1 img2"
+      "img3 img3";
+  }
+  @include abstracts.mq(1000px) {
+  }
 }
+
+.card__one {
+  grid-area: one;
+}
+.card__two {
+  grid-area: two;
+}
+
+.img__one {
+  grid-area: img1;
+}
+
+.img__two {
+  grid-area: img2;
+}
+
+.img__three {
+  grid-area: img3;
+}
+
+//  break points needed 800px = 2col 1000 = 3 col
 
 .about__info_card {
   text-align: center;

@@ -336,6 +336,32 @@ header {
   width: 80%;
   margin: 0 auto;
 }
+@media (min-width: 800px) {
+  .about__grid_wrap {
+    gap: 2rem 2rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "one two" "img1 img2" "img3 img3";
+  }
+}
+.card__one {
+  grid-area: one;
+}
+
+.card__two {
+  grid-area: two;
+}
+
+.img__one {
+  grid-area: img1;
+}
+
+.img__two {
+  grid-area: img2;
+}
+
+.img__three {
+  grid-area: img3;
+}
 
 .about__info_card {
   text-align: center;
