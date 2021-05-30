@@ -327,6 +327,8 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 .about__grid_wrap {
@@ -343,6 +345,13 @@ header {
     grid-template-areas: "one two" "img1 img2" "img3 img3";
   }
 }
+@media (min-width: 1000px) {
+  .about__grid_wrap {
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-areas: "one two img3" "img1 img2 img3";
+  }
+}
+
 .card__one {
   grid-area: one;
 }
