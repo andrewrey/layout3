@@ -55,10 +55,12 @@
 .about__grid_wrap {
   display: grid;
   grid-template-columns: 1fr;
+  gap: 3rem 0;
 }
 
 .about__info_card {
   text-align: center;
+  padding: 0 2rem;
 }
 
 .icon__wrap {
