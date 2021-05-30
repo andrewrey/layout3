@@ -323,4 +323,10 @@ header {
   }
 }
 
+.about__wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 /*# sourceMappingURL=main.css.map */
