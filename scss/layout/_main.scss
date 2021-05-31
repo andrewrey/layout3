@@ -155,6 +155,7 @@
     flex-direction: column;
     align-items: center;
     width: 80%;
+    max-width: 1200px;
     margin: 0 auto;
     @include abstracts.mq(800px) {
       flex-direction: row;
@@ -167,6 +168,10 @@
     padding: 4rem 2rem;
     @include abstracts.mq(800px) {
       width: 45%;
+    }
+    @include abstracts.mq(1000px) {
+      flex-basis: 0;
+      flex-grow: 1;
     }
     background-color: white;
     display: flex;

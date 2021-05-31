@@ -430,6 +430,7 @@ header {
   flex-direction: column;
   align-items: center;
   width: 80%;
+  max-width: 1200px;
   margin: 0 auto;
 }
 @media (min-width: 800px) {
@@ -451,6 +452,12 @@ header {
 @media (min-width: 800px) {
   .features .features__wrap__card {
     width: 45%;
+  }
+}
+@media (min-width: 1000px) {
+  .features .features__wrap__card {
+    flex-basis: 0;
+    flex-grow: 1;
   }
 }
 .features .features__wrap__card + .features__wrap__card {
