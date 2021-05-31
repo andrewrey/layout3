@@ -420,14 +420,26 @@ header {
 
 .features {
   background-color: #ffb067;
+  padding: 4rem 0;
 }
 .features .icon {
   width: 40px;
 }
+.features .features__wrap {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+}
 .features .features__wrap__card {
+  background-color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
+}
+.features .features__wrap__card + .features__wrap__card {
+  margin-top: 2rem;
 }
 
 /*# sourceMappingURL=main.css.map */
