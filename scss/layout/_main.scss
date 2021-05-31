@@ -143,3 +143,15 @@
   }
   border-radius: 50%;
 }
+
+.features {
+  background-color: abstracts.$orange;
+  .icon {
+    width: 40px;
+  }
+  .features__wrap__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

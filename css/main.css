@@ -418,4 +418,16 @@ header {
   }
 }
 
+.features {
+  background-color: #ffb067;
+}
+.features .icon {
+  width: 40px;
+}
+.features .features__wrap__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 /*# sourceMappingURL=main.css.map */
