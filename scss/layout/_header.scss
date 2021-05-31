@@ -34,6 +34,8 @@ header {
     a {
       text-decoration: none;
       color: black;
+      text-transform: uppercase;
+      font-weight: bold;
     }
   }
 }
@@ -145,6 +147,11 @@ header {
     text-transform: uppercase;
     font-weight: bold;
     line-height: 1.2;
+  }
+  .image__text__subparagraph {
+    margin-top: 4rem;
+    font-size: 2rem;
+    color: black;
   }
 }
 
