@@ -153,10 +153,21 @@
   .features__wrap {
     display: flex;
     flex-direction: column;
+    align-items: center;
     width: 80%;
     margin: 0 auto;
+    @include abstracts.mq(800px) {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      gap: 2rem;
+    }
   }
   .features__wrap__card {
+    padding: 4rem 2rem;
+    @include abstracts.mq(800px) {
+      width: 45%;
+    }
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -164,6 +175,9 @@
     text-align: center;
     & + .features__wrap__card {
       margin-top: 2rem;
+      @include abstracts.mq(800px) {
+        margin-top: 0;
+      }
     }
   }
 }
