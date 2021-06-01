@@ -533,4 +533,20 @@ header {
   }
 }
 
+.features__wrap__card .orange__card {
+  color: #ffb067;
+}
+
+.features__wrap__card .yellow__card {
+  color: #f6d935;
+}
+
+.features__wrap__card .blue__card {
+  color: #68c1d3;
+}
+
+.features__wrap__card .pink__card {
+  color: #f5a4c1;
+}
+
 /*# sourceMappingURL=main.css.map */
