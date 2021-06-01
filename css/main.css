@@ -95,6 +95,24 @@ html {
   font-size: 1.125rem;
 }
 
+.about h2 {
+  font-size: 1.5rem;
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  color: #6e6e6e;
+}
+.about h3 {
+  font-size: 2.25rem;
+  font-family: "Oswald", sans-serif;
+  color: #525252;
+}
+.about .card__heading {
+  color: #6e6e6e;
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  font-size: 2.06rem;
+}
+
 header {
   padding-bottom: 200px;
 }
@@ -364,9 +382,8 @@ header {
   max-width: 1400px;
   margin: 0 auto;
 }
-.about__wrap h2,
-.about__wrap h3 {
-  margin-bottom: 2.5rem;
+.about__wrap > h3 {
+  margin-bottom: 6.5rem;
 }
 
 .about__grid_wrap {
@@ -430,6 +447,17 @@ header {
   text-align: center;
   padding: 0 2rem;
 }
+.about__info_card .card__heading {
+  margin-bottom: 2rem;
+}
+.about__info_card a {
+  display: block;
+  margin-top: 0.8rem;
+  text-decoration: none;
+  color: #f5a4c1;
+  font-weight: bold;
+  text-transform: uppercase;
+}
 
 .icon__wrap {
   background-color: #68c1d3;
@@ -445,6 +473,13 @@ header {
   .icon__wrap {
     margin: 0 0 1.5rem;
   }
+}
+.icon__wrap i {
+  color: white;
+}
+
+.card__two .icon__wrap {
+  background-color: #f5a4c1;
 }
 
 .features {

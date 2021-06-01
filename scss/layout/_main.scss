@@ -55,9 +55,9 @@
   align-items: center;
   max-width: 1400px;
   margin: 0 auto;
-  h2,
-  h3 {
-    margin-bottom: 2.5rem;
+
+  > h3 {
+    margin-bottom: 6.5rem;
   }
 }
 
@@ -128,6 +128,17 @@
 .about__info_card {
   text-align: center;
   padding: 0 2rem;
+  .card__heading {
+    margin-bottom: 2rem;
+  }
+  a {
+    display: block;
+    margin-top: 0.8rem;
+    text-decoration: none;
+    color: abstracts.$hPink;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
 }
 
 .icon__wrap {
@@ -142,6 +153,13 @@
     margin: 0 0 1.5rem;
   }
   border-radius: 50%;
+  i {
+    color: white;
+  }
+}
+
+.card__two .icon__wrap {
+  background-color: abstracts.$hPink;
 }
 
 .features {

@@ -28,3 +28,24 @@ html {
     font-size: 1.125rem;
   }
 }
+
+.about {
+  h2 {
+    font-size: 1.5rem;
+    font-family: $osw;
+    font-weight: 300;
+    color: rgb(110, 110, 110);
+  }
+  h3 {
+    font-size: 2.25rem;
+    font-family: $osw;
+    color: rgb(82, 82, 82);
+  }
+
+  .card__heading {
+    color: rgb(110, 110, 110);
+    font-family: $osw;
+    font-weight: 300;
+    font-size: 2.06rem;
+  }
+}
