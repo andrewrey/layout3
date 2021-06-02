@@ -569,4 +569,9 @@ header {
   color: #f5a4c1;
 }
 
+.methods__wrap {
+  width: 80%;
+  margin: 0 auto;
+}
+
 /*# sourceMappingURL=main.css.map */
