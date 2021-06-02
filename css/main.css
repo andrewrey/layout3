@@ -574,4 +574,27 @@ header {
   margin: 0 auto;
 }
 
+.methods__imgs {
+  position: relative;
+}
+.methods__imgs .img1 {
+  width: 60%;
+}
+.methods__imgs .img__decoration__wrap {
+  width: 50%;
+  position: absolute;
+  bottom: 10px;
+  right: 0;
+  z-index: 0;
+}
+.methods__imgs .img__decoration__wrap .img__decoration {
+  position: absolute;
+  top: -8%;
+  left: -10%;
+  width: 120%;
+  height: 100%;
+  background-image: linear-gradient(45deg, #ffb067, #f6d935, #f5a4c1);
+  z-index: -20;
+}
+
 /*# sourceMappingURL=main.css.map */
