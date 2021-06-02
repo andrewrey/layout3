@@ -49,3 +49,17 @@ html {
     font-size: 2.06rem;
   }
 }
+
+.features {
+  > h2 {
+    font-size: 1.5rem;
+    font-family: $osw;
+    font-weight: 300;
+    color: white;
+  }
+  > h3 {
+    font-size: 2.25rem;
+    font-family: $osw;
+    color: white;
+  }
+}
