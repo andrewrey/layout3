@@ -1,3 +1,5 @@
+@use "../abstracts";
+
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;0,800;1,300;1,400;1,700&family=Oswald:wght@200;300;400;700&display=swap");
 
 $osw: "Oswald", sans-serif;
@@ -61,5 +63,18 @@ html {
     font-size: 2.25rem;
     font-family: $osw;
     color: white;
+  }
+}
+
+.methods {
+  .methods__card {
+    h2 {
+      color: abstracts.$bBlue;
+      font-size: 2.25rem;
+      font-family: $osw;
+    }
+    p {
+      font-size: 1.125rem;
+    }
   }
 }

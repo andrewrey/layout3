@@ -222,6 +222,13 @@
 .methods__wrap {
   width: 80%;
   margin: 0 auto;
+  display: grid;
+  max-width: 1200px;
+  grid-template-columns: 1fr;
+  @include abstracts.mq(800px) {
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+  }
 }
 
 .methods__imgs {
@@ -249,5 +256,15 @@
       );
       z-index: -20;
     }
+  }
+}
+
+.methods__card {
+  margin-top: 3rem;
+  @include abstracts.mq(800px) {
+    margin-top: 0;
+  }
+  h2 {
+    margin-bottom: 0.8rem;
   }
 }
