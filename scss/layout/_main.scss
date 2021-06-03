@@ -219,6 +219,10 @@
   }
 }
 
+.methods {
+  padding: 4rem 0;
+}
+
 .methods__wrap {
   width: 80%;
   margin: 0 auto;
@@ -263,6 +267,7 @@
   margin-top: 3rem;
   @include abstracts.mq(800px) {
     margin-top: 0;
+    align-self: center;
   }
   h2 {
     margin-bottom: 0.8rem;

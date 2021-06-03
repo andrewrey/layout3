@@ -578,6 +578,10 @@ header {
   color: #f5a4c1;
 }
 
+.methods {
+  padding: 4rem 0;
+}
+
 .methods__wrap {
   width: 80%;
   margin: 0 auto;
@@ -621,6 +625,7 @@ header {
 @media (min-width: 800px) {
   .methods__card {
     margin-top: 0;
+    align-self: center;
   }
 }
 .methods__card h2 {
