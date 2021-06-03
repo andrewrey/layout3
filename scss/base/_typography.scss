@@ -90,3 +90,20 @@ html {
     color: white;
   }
 }
+
+.school {
+  padding: 4rem 0;
+  > h2 {
+    font-size: 1.5rem;
+    font-family: $osw;
+    font-weight: 300;
+    color: rgb(110, 110, 110);
+    text-align: center;
+  }
+  > h3 {
+    font-size: 2.25rem;
+    font-family: $osw;
+    color: rgb(82, 82, 82);
+    text-align: center;
+  }
+}
