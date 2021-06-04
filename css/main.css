@@ -722,6 +722,12 @@ header {
   padding: 0;
   margin: 0;
 }
+.school ul h4 {
+  margin-bottom: 1.5rem;
+}
+.school ul li + li {
+  margin-top: 1.5rem;
+}
 .school .right {
   text-align: right;
   grid-area: rlist;
