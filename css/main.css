@@ -823,7 +823,7 @@ header {
 @media (min-width: 800px) {
   .facility .facility__card__wrap {
     width: 40%;
-    left: 110px;
+    left: 120px;
     top: -50px;
   }
 }
