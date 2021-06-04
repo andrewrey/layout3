@@ -757,11 +757,14 @@ header {
 .facility .facility__wrap {
   width: 80%;
   margin: 0 auto;
+  max-width: 1200px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid red;
 }
 .facility img {
-  width: 60%;
+  width: 55%;
 }
 .facility .facility__decoration a {
   display: block;
@@ -773,11 +776,13 @@ header {
 .facility .facility__card {
   height: 100%;
   background-color: white;
+  padding: 2rem 0.8rem;
 }
 .facility .facility__card__wrap {
-  width: 55%;
-  border: 2px solid red;
+  width: 42%;
   position: relative;
+  left: 100px;
+  top: -50px;
   z-index: 0;
 }
 .facility .facility__card__background {
@@ -787,7 +792,7 @@ header {
   height: 110%;
   top: -5%;
   right: 0;
-  background-color: rgba(144, 238, 144, 0.5);
+  background-image: linear-gradient(45deg, #ffb067, #f5a4c1);
 }
 
 /*# sourceMappingURL=main.css.map */
