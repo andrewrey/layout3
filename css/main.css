@@ -701,6 +701,7 @@ header {
   max-width: 1200px;
   margin: 2rem auto 0;
   display: grid;
+  gap: 45px;
   grid-template-columns: 1fr;
   grid-template-areas: "rlist" "img" "llist";
 }
@@ -708,7 +709,6 @@ header {
   .school .school__wrap {
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "rlist img" "llist llist";
-    gap: 45px;
   }
 }
 @media (min-width: 1000px) {
