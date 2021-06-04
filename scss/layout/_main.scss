@@ -355,3 +355,13 @@
     }
   }
 }
+
+.facility {
+  a {
+    display: block;
+    margin-top: 0.8rem;
+    text-decoration: none;
+    color: abstracts.$hPink;
+    text-transform: uppercase;
+  }
+}
