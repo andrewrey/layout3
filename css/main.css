@@ -754,12 +754,36 @@ header {
   }
 }
 
-.facility a {
+.facility .facility__wrap {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+.facility img {
+  width: 60%;
+}
+.facility .facility__decoration a {
   display: block;
   margin-top: 0.8rem;
   text-decoration: none;
   color: #f5a4c1;
   text-transform: uppercase;
+}
+.facility .facility__card {
+  width: 55%;
+  border: 2px solid red;
+  position: relative;
+  z-index: 10;
+}
+.facility .facility__card__background {
+  position: absolute;
+  z-index: -1;
+  width: 110%;
+  height: 110%;
+  top: -5%;
+  right: 0;
+  background-color: rgba(144, 238, 144, 0.5);
 }
 
 /*# sourceMappingURL=main.css.map */
