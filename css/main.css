@@ -699,18 +699,53 @@ header {
 .school .school__wrap {
   width: 80%;
   max-width: 1200px;
-  margin: 0 auto;
-  border: 2px solid red;
+  margin: 2rem auto 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas: "rlist" "img" "llist";
+}
+@media (min-width: 800px) {
+  .school .school__wrap {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "rlist img" "llist llist";
+    gap: 45px;
+  }
+}
+@media (min-width: 1000px) {
+  .school .school__wrap {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "rlist img llist";
+  }
 }
 .school ul {
   list-style-type: none;
   padding: 0;
+  margin: 0;
 }
 .school .right {
   text-align: right;
+  grid-area: rlist;
+}
+@media (min-width: 800px) {
+  .school .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+.school .school__img {
+  grid-area: img;
 }
 .school .left {
   text-align: left;
+  grid-area: llist;
+}
+@media (min-width: 1000px) {
+  .school .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -303,17 +303,49 @@
   .school__wrap {
     width: 80%;
     max-width: 1200px;
-    margin: 0 auto;
-    border: 2px solid red;
+    margin: 2rem auto 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "rlist"
+      "img"
+      "llist";
+    @include abstracts.mq(800px) {
+      grid-template-columns: 1fr 1fr;
+      grid-template-areas:
+        "rlist img"
+        "llist llist";
+      gap: 45px;
+    }
+    @include abstracts.mq(1000px) {
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-areas: "rlist img llist";
+    }
   }
   ul {
     list-style-type: none;
     padding: 0;
+    margin: 0;
   }
   .right {
     text-align: right;
+    grid-area: rlist;
+    @include abstracts.mq(800px) {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+  }
+  .school__img {
+    grid-area: img;
   }
   .left {
     text-align: left;
+    grid-area: llist;
+    @include abstracts.mq(1000px) {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
   }
 }
