@@ -766,18 +766,6 @@ header {
 .facility img {
   width: 55%;
 }
-.facility .facility__decoration a {
-  display: block;
-  margin-top: 0.8rem;
-  text-decoration: none;
-  color: #f5a4c1;
-  text-transform: uppercase;
-}
-.facility .facility__card {
-  height: 100%;
-  background-color: white;
-  padding: 2rem 0.8rem;
-}
 .facility .facility__card__wrap {
   width: 42%;
   position: relative;
@@ -785,7 +773,19 @@ header {
   top: -50px;
   z-index: 0;
 }
-.facility .facility__card__background {
+.facility .facility__card__wrap .facility__card {
+  height: 100%;
+  background-color: white;
+  padding: 2rem 0.8rem;
+}
+.facility .facility__card__wrap .facility__card a {
+  display: block;
+  margin-top: 0.8rem;
+  text-decoration: none;
+  color: #f5a4c1;
+  text-transform: uppercase;
+}
+.facility .facility__card__wrap__background {
   position: absolute;
   z-index: -1;
   width: 110%;

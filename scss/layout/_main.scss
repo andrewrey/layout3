@@ -369,24 +369,25 @@
   img {
     width: 55%;
   }
-  .facility__decoration a {
-    display: block;
-    margin-top: 0.8rem;
-    text-decoration: none;
-    color: abstracts.$hPink;
-    text-transform: uppercase;
-  }
-  .facility__card {
-    height: 100%;
-    background-color: white;
-    padding: 2rem 0.8rem;
 
-    &__wrap {
-      width: 42%;
-      position: relative;
-      left: 100px;
-      top: -50px;
-      z-index: 0;
+  .facility__card__wrap {
+    width: 42%;
+    position: relative;
+    left: 100px;
+    top: -50px;
+    z-index: 0;
+
+    .facility__card {
+      height: 100%;
+      background-color: white;
+      padding: 2rem 0.8rem;
+      a {
+        display: block;
+        margin-top: 0.8rem;
+        text-decoration: none;
+        color: abstracts.$hPink;
+        text-transform: uppercase;
+      }
     }
 
     &__background {
