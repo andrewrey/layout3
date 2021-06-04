@@ -171,6 +171,31 @@ html {
   color: #525252;
 }
 
+.facility {
+  padding: 4rem 0;
+}
+.facility > h2 {
+  font-size: 1.5rem;
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  color: #6e6e6e;
+  text-align: center;
+}
+.facility > h3 {
+  font-size: 2.25rem;
+  font-family: "Oswald", sans-serif;
+  color: #525252;
+  text-align: center;
+}
+.facility .facility__card h2 {
+  font-family: "Oswald", sans-serif;
+  font-size: 2.25rem;
+  color: #525252;
+}
+.facility .facility__card p {
+  font-size: 1.125rem;
+}
+
 header {
   padding-bottom: 200px;
 }
@@ -754,6 +779,9 @@ header {
   }
 }
 
+.facility h3 {
+  margin-bottom: 4rem;
+}
 .facility .facility__wrap {
   width: 80%;
   margin: 0 auto;
