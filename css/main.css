@@ -160,6 +160,16 @@ html {
   color: #525252;
   text-align: center;
 }
+.school li > h4 {
+  font-family: "Oswald", sans-serif;
+  font-size: 1.25rem;
+  color: #525252;
+}
+.school li > p {
+  font-size: 1.125;
+  font-style: italic;
+  color: #525252;
+}
 
 header {
   padding-bottom: 200px;

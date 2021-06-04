@@ -106,4 +106,14 @@ html {
     color: rgb(82, 82, 82);
     text-align: center;
   }
+  li > h4 {
+    font-family: $osw;
+    font-size: 1.25rem;
+    color: rgb(82, 82, 82);
+  }
+  li > p {
+    font-size: 1.125;
+    font-style: italic;
+    color: rgb(82, 82, 82);
+  }
 }
