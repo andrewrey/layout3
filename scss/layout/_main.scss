@@ -298,3 +298,22 @@
     justify-content: center;
   }
 }
+
+.school {
+  .school__wrap {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 2px solid red;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  .right {
+    text-align: right;
+  }
+  .left {
+    text-align: left;
+  }
+}

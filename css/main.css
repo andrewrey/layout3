@@ -686,4 +686,21 @@ header {
   }
 }
 
+.school .school__wrap {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  border: 2px solid red;
+}
+.school ul {
+  list-style-type: none;
+  padding: 0;
+}
+.school .right {
+  text-align: right;
+}
+.school .left {
+  text-align: left;
+}
+
 /*# sourceMappingURL=main.css.map */
