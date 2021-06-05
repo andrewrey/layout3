@@ -1,0 +1,22 @@
+footer {
+  padding: 1.5rem;
+  background-color: rgb(31, 31, 31);
+  text-align: center;
+  p {
+    margin-top: 1.2rem;
+    color: white;
+    font-size: 0.875rem;
+  }
+}
+
+.footer__social {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  img {
+    width: 25px;
+  }
+}
