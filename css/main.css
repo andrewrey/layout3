@@ -243,12 +243,19 @@ html {
   border-radius: 50px 50px 0 0;
 }
 .modal .modal__list-wrap {
+  position: relative;
   width: 80%;
   height: 100%;
   margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.modal .modal__list-wrap .close {
+  width: 45px;
+  position: absolute;
+  top: 50px;
+  right: 20px;
 }
 .modal .modal__list-wrap ul {
   margin: 0;
