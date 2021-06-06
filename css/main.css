@@ -254,8 +254,8 @@ html {
 .modal .modal__list-wrap .close {
   width: 45px;
   position: absolute;
-  top: 50px;
-  right: 20px;
+  top: 15px;
+  right: -8%;
 }
 .modal .modal__list-wrap ul {
   margin: 0;
