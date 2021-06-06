@@ -346,6 +346,17 @@ header {
 .header__burger:hover .pink {
   animation: flash 0.8s 0.4s infinite;
 }
+@media (hover: none) {
+  .header__burger .orange {
+    animation: flash 0.8s infinite;
+  }
+  .header__burger .blue {
+    animation: flash 0.8s 0.2s infinite;
+  }
+  .header__burger .pink {
+    animation: flash 0.8s 0.4s infinite;
+  }
+}
 .header__burger div {
   width: 30px;
   height: 4px;

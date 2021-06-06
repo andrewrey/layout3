@@ -127,6 +127,17 @@ header {
       animation: flash 0.8s 0.4s infinite;
     }
   }
+  @media (hover: none) {
+    .orange {
+      animation: flash 0.8s infinite;
+    }
+    .blue {
+      animation: flash 0.8s 0.2s infinite;
+    }
+    .pink {
+      animation: flash 0.8s 0.4s infinite;
+    }
+  }
   div {
     width: 30px;
     height: 4px;
