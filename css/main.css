@@ -211,7 +211,7 @@ html {
   opacity: 0;
   position: fixed;
   pointer-events: none;
-  transition: opacity 1s ease-in;
+  transition: opacity 0.5s ease-in;
   top: 0;
   left: 0;
   width: 100vw;
@@ -227,16 +227,13 @@ html {
 
 .darken {
   opacity: 1;
-}
-
-.slide-up {
-  transform: translateY(0);
+  pointer-events: auto;
 }
 
 .modal {
   position: fixed;
   transform: translateY(5000px);
-  transition: transform 2s ease-in;
+  transition: transform 0.2s ease-in;
   z-index: 12;
   bottom: 0;
   left: 0;
@@ -273,6 +270,10 @@ html {
   .modal {
     display: none;
   }
+}
+
+.slide-up {
+  transform: translateY(0);
 }
 
 header {
